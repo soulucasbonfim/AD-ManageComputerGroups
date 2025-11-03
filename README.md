@@ -31,7 +31,7 @@ Version **1.9.7** — by [Lucas Bonfim de Oliveira Lima](https://linkedin.com/in
 - [Repository Structure](#-repository-structure)
 - [Versioning (Summary)](#-versioning-summary)
 - [Contributing](#-contributing)
-- [License](#-License)
+- [License](#%EF%B8%8F-license)
 - [Author](#-author)
 
 ---
