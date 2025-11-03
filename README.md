@@ -17,7 +17,7 @@ Version **1.9.7** — by [Lucas Bonfim de Oliveira Lima](https://linkedin.com/in
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Quick Start](#-quick-start)
-- [Configuration INI as SSOT](#configuration-ini-as-ssot)
+- [Configuration (INI as SSOT)](#configuration-ini-as-ssot)
 - [Naming Conventions](#-naming-conventions)
 - [Suggested OU Layout](#suggested-ou-layout)
 - [Execution Flow & Modes](#-execution-flow--modes)
@@ -196,7 +196,7 @@ ForEach-Object {
 
 ---
 
-## ⚙️ Configuration INI as SSOT
+## ⚙️ Configuration (INI as SSOT)
 
 All configuration logic is centralized in **AD-ManageComputerGroups.ini**, serving as the **Single Source of Truth (SSOT)**.
 
