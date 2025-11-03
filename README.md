@@ -123,7 +123,7 @@ WhatIf=false
 Verbose=true  
 AutoCreateOUs=true  
 AutoCreateGlobalGroups=true  
-BaseReconciliationSearchDN=OU=Groups,OU=USER_CONTROL,OU=GLOBAL,DC=ODRL,DC=NET
+BaseReconciliationSearchDN=OU=Groups,OU=USER_CONTROL,OU=GLOBAL,DC=ACME,DC=NET
 
 **Tips:**  
 - `WhatIf=true` → simulation mode (no modifications)  
@@ -188,7 +188,7 @@ After execution, verify that the expected groups and OUs exist.
 **Verification Commands:**  
 Get-ADGroup -Filter 'Name -like "GRP-*"' | Select Name, DistinguishedName  
 
-Get-ADComputer -Filter * -SearchBase "OU=Servers,OU=GLOBAL,DC=ODRL,DC=NET" |  
+Get-ADComputer -Filter * -SearchBase "OU=Servers,OU=GLOBAL,DC=ACME,DC=NET" |  
 ForEach-Object {  
     "$($_.Name) → $(Get-ADGroup -Filter 'Name -like \"*' + $_.Name + '*\"').Name"  
 }
