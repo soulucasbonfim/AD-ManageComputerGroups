@@ -28,7 +28,6 @@ Version **1.9.7** — by [Lucas Bonfim de Oliveira Lima](https://linkedin.com/in
 - [Performance Tips](#%EF%B8%8F-performance-tips)
 - [Limitations](#%EF%B8%8F-limitations)
 - [Repository Structure](#%EF%B8%8F-repository-structure)
-- [Versioning (Summary)](#-versioning-summary)
 - [Contributing](#-contributing)
 - [License](#%EF%B8%8F-license)
 - [Author](#-author)
@@ -361,20 +360,6 @@ No. The script requires a domain-joined host with AD connectivity.
 - ├── templates/
 - └── changelog/
 
-
----
-
-## 🧾 Versioning (Summary)
-
-**Current Version:** 1.9.7  
-**Release Date:** 2025-11-02  
-**Change Highlights:**  
-- Improved dynamic regex matching  
-- Enhanced OU auto-discovery logic  
-- Extended cleanup validation  
-- Idempotency guarantees across reruns  
-
-Versioning follows **Semantic Versioning (MAJOR.MINOR.PATCH)**.
 
 ---
 
