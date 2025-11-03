@@ -27,7 +27,6 @@ Version **1.9.7** — by [Lucas Bonfim de Oliveira Lima](https://linkedin.com/in
 - [FAQ](#-faq)
 - [Performance Tips](#%EF%B8%8F-performance-tips)
 - [Limitations](#%EF%B8%8F-limitations)
-- [Roadmap](#-roadmap)
 - [Repository Structure](#%EF%B8%8F-repository-structure)
 - [Versioning (Summary)](#-versioning-summary)
 - [Contributing](#-contributing)
@@ -348,16 +347,6 @@ No. The script requires a domain-joined host with AD connectivity.
 - Must run within a trusted AD environment.  
 - Cannot manage cross-domain OUs.  
 - Designed for on-prem AD only (no EntraID/AzureAD support).  
-
----
-
-## 🧭 Roadmap
-
-Planned Enhancements:
-- CSV export of reconciliation results.  
-- Integration with AD ACL auditing reports.  
-- Parallelized group validation threads.  
-- Graphical UI for configuration testing.  
 
 ---
 
